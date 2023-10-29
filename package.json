@@ -1,12 +1,12 @@
 {
-  "name": "basic-application-server",
+  "name": "financial-dashboard-server",
   "version": "1.0.0",
   "description": "Basic Application Server",
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
     "server": "nodemon src/server.js",
-    "dev": "concurrently \"npm run server\" \"cd ../basic-application && npm start\""
+    "dev": "concurrently \"npm run server\" \"cd ../financial-dashboard && npm start\""
   },
   "author": "Haim Hamiel",
   "license": "MIT",

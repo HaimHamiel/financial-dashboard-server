@@ -15,10 +15,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
-app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to Basic Application" });
-});
-
 //Routes
 const router = require("./routes");
 app.use(router);
